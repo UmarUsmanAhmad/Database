@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mattin-Lassei Project Management</title>
+    <title>Project Management</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>MATTIN-LASSEI PROJECT MANAGEMENT</h1>
+        <h1>Project Management</h1>
         <nav>
             <button id="overview-btn">Projektöversikt</button>
             <button id="create-btn">Skapa nytt projekt</button>
@@ -26,12 +26,10 @@
                         <th>Åtgärd</th>
                     </tr>
                 </thead>
-                <tbody>
-                  
-                </tbody>
+                <tbody></tbody>
             </table>
         </section>
-        
+
         <section id="create" class="hidden">
             <h2>Skapa nytt projekt</h2>
             <form id="create-form">
@@ -39,7 +37,7 @@
                 <input type="date" id="start-date" required>
                 <input type="date" id="end-date" required>
                 <input type="text" id="responsible" placeholder="Ansvarig" required>
-                <input type="text" id="customer" placeholder="Kund" required>
+                <input type="number" id="customer-id" placeholder="Kundens ID" required>
                 <input type="text" id="service" placeholder="Tjänst" required>
                 <input type="number" id="total-price" placeholder="Totalpris" required>
                 <select id="status">
